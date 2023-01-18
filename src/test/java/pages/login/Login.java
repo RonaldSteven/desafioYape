@@ -16,4 +16,7 @@ public interface Login {
     }
 
     void checkVistaPrincipal(String arg0, String arg1);
+    void validarBtnSignSocialMedia(String arg0);
+    void validarBtnSignInOpts(String arg0, String arg1);
+    void clickBtnSignWithEmail(String arg0);
 }

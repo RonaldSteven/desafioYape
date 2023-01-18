@@ -5,20 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62c8dc3f-6e96-4e97-9af8-885abc3f422b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/constants/OS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/driverMobile/DriverContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/driverMobile/DriverManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/features/mobile/borrar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/borrar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/login/WelcomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/steps/CucumberHooks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testSuites/CucumberRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/features/mobile/login/ValidarInicioDeSesionEnAppBookingConCredencialesValidasEInvalidas.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/mobile/login/ValidarInicioDeSesionEnAppBookingConCredencialesValidasEInvalidas.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/login/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/login/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/login/LoginAndroid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/login/LoginAndroid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/ValidarInicioSesionEnAppBookingConCredencialesValidasEInvalidas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/ValidarInicioSesionEnAppBookingConCredencialesValidasEInvalidas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/AccionesGenericas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/AccionesGenericas.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +30,11 @@
     </projectState>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -44,11 +48,15 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "last_opened_file_path": "C:/Users/roona/Desktop/workspace/desafioYape/src/main/java"
+    "last_opened_file_path": "C:/Users/roona/Desktop/workspace/desafioYape/apps",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\roona\Desktop\workspace\desafioYape\apps" />
+      <recent name="C:\Users\roona\Desktop\workspace\desafioYape\src\test\java" />
+      <recent name="C:\Users\roona\Desktop\workspace\desafioYape\src\test\resources" />
       <recent name="C:\Users\roona\Desktop\workspace\desafioYape\src\main\java" />
     </key>
   </component>
@@ -100,5 +108,26 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/steps/ValidarInicioSesionEnAppBookingConCredencialesValidasEInvalidas.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/steps/ValidarInicioSesionEnAppBookingConCredencialesValidasEInvalidas.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/steps/ValidarInicioSesionEnAppBookingConCredencialesValidasEInvalidas.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
