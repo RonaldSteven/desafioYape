@@ -3,7 +3,6 @@ package steps;
 
 import constants.OS;
 import driverMobile.DriverContext;
-import io.cucumber.java.Scenario;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 

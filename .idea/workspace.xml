@@ -5,18 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62c8dc3f-6e96-4e97-9af8-885abc3f422b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/features/mobile/borrar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/borrar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/login/WelcomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/steps/CucumberHooks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testSuites/CucumberRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/features/mobile/ValidarInicioDeSesionEnAppBookingConCredencialesValidasEInvalidas.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/login/Welcome.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/features/mobile/login/ValidarInicioDeSesionEnAppBookingConCredencialesValidasEInvalidas.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/mobile/login/ValidarInicioDeSesionEnAppBookingConCredencialesValidasEInvalidas.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/driverMobile/DriverContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/driverMobile/DriverContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/driverMobile/DriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/driverMobile/DriverManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/features/mobile/borrar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/features/mobile/login/ValidarInicioDeSesionEnAppBookingConCredencialesValidasEInvalidas.feature" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pages/login/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/login/Login.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pages/login/LoginAndroid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/login/LoginAndroid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/login/WelcomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/login/WelcomeAndroid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/CucumberHooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/CucumberHooks.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/steps/ValidarInicioSesionEnAppBookingConCredencialesValidasEInvalidas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/ValidarInicioSesionEnAppBookingConCredencialesValidasEInvalidas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testSuites/CucumberRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testSuites/CucumberRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/utils/AccionesGenericas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/AccionesGenericas.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,6 +29,15 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="Enum" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -48,19 +58,45 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "last_opened_file_path": "C:/Users/roona/Desktop/workspace/desafioYape/apps",
+    "last_opened_file_path": "C:/Users/roona/Desktop/workspace/desafioYape/src/test/java/features/mobile",
     "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\roona\Desktop\workspace\desafioYape\src\test\java\features\mobile" />
       <recent name="C:\Users\roona\Desktop\workspace\desafioYape\apps" />
       <recent name="C:\Users\roona\Desktop\workspace\desafioYape\src\test\java" />
       <recent name="C:\Users\roona\Desktop\workspace\desafioYape\src\test\resources" />
       <recent name="C:\Users\roona\Desktop\workspace\desafioYape\src\main\java" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\roona\Desktop\workspace\desafioYape\src\test\java\features\mobile" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="constants" />
+    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Cucumber Java.Feature: ValidarInicioDeSesionEnAppBookingConCredencialesValidasEInvalidas">
+    <configuration name="Feature: ValidarInicioDeSesionEnAppBookingConCredencialesValidasEInvalidas" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/mobile/login/ValidarInicioDeSesionEnAppBookingConCredencialesValidasEInvalidas.feature" />
+      <option name="GLUE" value="steps" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="desafioYape.test" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: ValidarInicioDeSesionEnAppBookingConCredencialesValidasEInvalidas" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Scenario: 01 - Iniciar sesión con credenciales válidas" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/mobile/login/ValidarInicioDeSesionEnAppBookingConCredencialesValidasEInvalidas.feature" />
@@ -81,8 +117,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Scenario: 02 - Iniciar sesión con credenciales inválidas" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/mobile/login/ValidarInicioDeSesionEnAppBookingConCredencialesValidasEInvalidas.feature" />
+      <option name="GLUE" value="steps" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="desafioYape.test" />
+      <option name="NAME_FILTER" value="^02 \- Iniciar sesión con credenciales inválidas$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^02 \- Iniciar sesión con credenciales inválidas$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: 02 - Iniciar sesión con credenciales inválidas" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Feature: ValidarInicioDeSesionEnAppBookingConCredencialesValidasEInvalidas" />
+        <item itemvalue="Cucumber Java.Scenario: 02 - Iniciar sesión con credenciales inválidas" />
         <item itemvalue="Cucumber Java.Scenario: 01 - Iniciar sesión con credenciales válidas" />
       </list>
     </recent_temporary>
@@ -108,26 +166,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/steps/ValidarInicioSesionEnAppBookingConCredencialesValidasEInvalidas.java</url>
-          <line>24</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/steps/ValidarInicioSesionEnAppBookingConCredencialesValidasEInvalidas.java</url>
-          <line>25</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/steps/ValidarInicioSesionEnAppBookingConCredencialesValidasEInvalidas.java</url>
-          <line>26</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

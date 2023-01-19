@@ -2,6 +2,7 @@ package driverMobile;
 
 import constants.OS;
 import io.appium.java_client.AppiumDriver;
+import org.openqa.selenium.Dimension;
 
 import java.net.MalformedURLException;
 
@@ -23,5 +24,9 @@ public class DriverContext {
 
     public static void quitDriver(){
         driverManager.getDriver().quit();
+    }
+
+    public static Dimension getScreenSize(){
+        return driverManager.getScreenSize();
     }
 }
