@@ -2,6 +2,7 @@ package steps;
 
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
+import pages.menus.attractions.MenuAttractions;
 import pages.menus.carRental.MenuCarRental;
 import pages.menus.flights.MenuFlights;
 import pages.menus.stays.MenuStays;
@@ -31,7 +32,7 @@ public class ValidarDespliegueCorrectoModulosReservas {
                 MenuTaxi.pageObject().validarExistenciaForm();
                 break;
             case "Attractions":
-                //Metodo
+                MenuAttractions.pageObject().validarExistenciaForm();
                 break;
         }
     }
@@ -56,7 +57,7 @@ public class ValidarDespliegueCorrectoModulosReservas {
                 MenuTaxi.pageObject().clickOnMenuCarRental(arg0);
                 break;
             case "Attractions":
-                //Metodo
+                MenuAttractions.pageObject().clickOnMenuAttractions(arg0);
                 break;
         }
     }
@@ -106,5 +107,6 @@ public class ValidarDespliegueCorrectoModulosReservas {
     @And("Visualizo boton {string} para buscar atracciones")
     public void visualizoBotonParaBuscarAtracciones(String arg0) {
         System.out.println("STEP - Visualizo boton "+arg0+" para buscar atracciones");
+        MenuAttractions.pageObject().validarBotonSearch(arg0);
     }
 }

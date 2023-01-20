@@ -13,4 +13,10 @@ public interface MenuAttractions {
         }
         return menuAttractions;
     }
+
+    void clickOnMenuAttractions(String arg0);
+
+    void validarExistenciaForm();
+
+    void validarBotonSearch(String arg0);
 }
