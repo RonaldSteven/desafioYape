@@ -9,7 +9,8 @@ Feature: Validar el despliegue correcto de las vista para cada menu de la app.
 
   @TSCID130001
   Scenario: 01 - Validar despliegue formulario de la vista Stays.
-    Then Debo visualizar formulario "Stays"
+    Then Debo visualizar que menu "Stays" se encuentre seleccionado
+    And Debo visualizar formulario "Stays"
     And Visualizo boton "Search" para buscar hoteles
 
   @TSCID130002
@@ -34,6 +35,8 @@ Feature: Validar el despliegue correcto de las vista para cada menu de la app.
   @TSCID130005
   Scenario: 05 - Validar despliegue formulario de la vista Taxis.
     And Selecciono del menu superior la opcion "Taxi"
+    And Debo visualizar modal con titulo "Taxi"
+    And Presiono boton "Skip"
     Then Debo visualizar formulario "Taxi"
     And Visualizo boton "See prices" para buscar taxis
 
@@ -42,6 +45,3 @@ Feature: Validar el despliegue correcto de las vista para cada menu de la app.
     And Selecciono del menu superior la opcion "Attractions"
     Then Debo visualizar formulario "Attractions"
     And Visualizo boton "Search" para buscar atracciones
-
-
-

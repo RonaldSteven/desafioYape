@@ -11,6 +11,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
+import java.util.List;
 import java.util.NoSuchElementException;
 
 import static org.junit.Assert.assertEquals;
@@ -56,13 +57,16 @@ public class AccionesGenericas {
         }
     }
 
-    public static boolean swipeAndFindCarrusel(MobileElement element, String nameElement, SwipeDirections direction, MobileElement findElement) {
+    public static boolean swipeAndFindCarrusel(MobileElement element, String nameElement, SwipeDirections direction, List<MobileElement> findElements) {
         boolean foundElement = false;
         int anchorX, anchorY;
         try {
             int contador = 0;
             do {
-                foundElement = visualizarObjeto(findElement, 5);
+                if(findElements.size() > 0){
+                    MobileElement findElement = findElements.get(0);
+                    foundElement = findElement.isDisplayed();
+                }
                 if (foundElement) {
                     System.out.println("[Acciones Genericas - Swipe and Find Carrusel] Se encuentra elemento " + nameElement);
                 } else {

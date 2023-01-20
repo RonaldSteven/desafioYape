@@ -5,19 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62c8dc3f-6e96-4e97-9af8-885abc3f422b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/features/mobile/ValidarInicioDeSesionEnAppBookingConCredencialesValidasEInvalidas.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/login/Welcome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/menus/stays/MenuStaysAndroid.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/driverMobile/DriverContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/driverMobile/DriverContext.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/driverMobile/DriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/driverMobile/DriverManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/features/mobile/borrar.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/features/mobile/login/ValidarInicioDeSesionEnAppBookingConCredencialesValidasEInvalidas.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/login/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/login/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/login/LoginAndroid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/login/LoginAndroid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/login/WelcomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/login/WelcomeAndroid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/steps/CucumberHooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/CucumberHooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/steps/ValidarInicioSesionEnAppBookingConCredencialesValidasEInvalidas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/ValidarInicioSesionEnAppBookingConCredencialesValidasEInvalidas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testSuites/CucumberRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testSuites/CucumberRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/features/mobile/ ValidarDespliegueCorrectoModuloReservaHotel.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/mobile/ValidarDespliegueCorrectoModulosReservas.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/features/mobile/RealizarBusquedaDeHotel.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/mobile/RealizarBusquedaDeHotel.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/menus/MenuCarRentalAndroid.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/menus/MenuStaysAndroid.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/menus/MenuTaxiAndroid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/menus/taxi/MenuTaxiAndroid.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/utils/AccionesGenericas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/AccionesGenericas.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,9 +27,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -56,12 +50,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "last_opened_file_path": "C:/Users/roona/Desktop/workspace/desafioYape/src/test/java/features/mobile",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/roona/Desktop/workspace/desafioYape/src/test/java/features/mobile&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\roona\Desktop\workspace\desafioYape\src\test\java\features\mobile" />
@@ -77,7 +71,7 @@
       <recent name="constants" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Feature: ValidarInicioDeSesionEnAppBookingConCredencialesValidasEInvalidas">
+  <component name="RunManager" selected="Cucumber Java.Scenario: 05 - Validar despliegue formulario de la vista Taxis.">
     <configuration name="Feature: ValidarInicioDeSesionEnAppBookingConCredencialesValidasEInvalidas" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/mobile/login/ValidarInicioDeSesionEnAppBookingConCredencialesValidasEInvalidas.feature" />
@@ -97,15 +91,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: 01 - Iniciar sesión con credenciales válidas" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: 01 - Validar despliegue formulario de la vista Stays." type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/mobile/login/ValidarInicioDeSesionEnAppBookingConCredencialesValidasEInvalidas.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/mobile/ValidarDespliegueCorrectoModulosReservas.feature" />
       <option name="GLUE" value="steps" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="desafioYape.test" />
-      <option name="NAME_FILTER" value="^01 \- Iniciar sesión con credenciales válidas$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^01 \- Iniciar sesión con credenciales válidas$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: 01 - Iniciar sesión con credenciales válidas" />
+      <option name="NAME_FILTER" value="^01 \- Validar despliegue formulario de la vista Stays\.$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^01 \- Validar despliegue formulario de la vista Stays\.$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: 01 - Validar despliegue formulario de la vista Stays." />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -137,11 +131,53 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Scenario: 04 - Validar despliegue modal bienvenida a menu Taxis." type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/mobile/ValidarDespliegueCorrectoModulosReservas.feature" />
+      <option name="GLUE" value="steps" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="desafioYape.test" />
+      <option name="NAME_FILTER" value="^04 \- Validar despliegue modal bienvenida a menu Taxis\.$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^04 \- Validar despliegue modal bienvenida a menu Taxis\.$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: 04 - Validar despliegue modal bienvenida a menu Taxis." />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: 05 - Validar despliegue formulario de la vista Taxis." type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/mobile/ValidarDespliegueCorrectoModulosReservas.feature" />
+      <option name="GLUE" value="steps" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="desafioYape.test" />
+      <option name="NAME_FILTER" value="^05 \- Validar despliegue formulario de la vista Taxis\.$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^05 \- Validar despliegue formulario de la vista Taxis\.$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: 05 - Validar despliegue formulario de la vista Taxis." />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Scenario: 05 - Validar despliegue formulario de la vista Taxis." />
+        <item itemvalue="Cucumber Java.Scenario: 04 - Validar despliegue modal bienvenida a menu Taxis." />
+        <item itemvalue="Cucumber Java.Scenario: 01 - Validar despliegue formulario de la vista Stays." />
         <item itemvalue="Cucumber Java.Feature: ValidarInicioDeSesionEnAppBookingConCredencialesValidasEInvalidas" />
         <item itemvalue="Cucumber Java.Scenario: 02 - Iniciar sesión con credenciales inválidas" />
-        <item itemvalue="Cucumber Java.Scenario: 01 - Iniciar sesión con credenciales válidas" />
       </list>
     </recent_temporary>
   </component>
@@ -166,5 +202,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/pages/menus/taxi/MenuTaxiAndroid.java</url>
+          <line>73</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

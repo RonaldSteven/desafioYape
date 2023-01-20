@@ -1,26 +1,16 @@
-package pages.menus;
+package pages.menus.attractions;
 
 import driverMobile.DriverContext;
 import io.appium.java_client.AppiumDriver;
-import io.appium.java_client.MobileElement;
-import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 import org.openqa.selenium.support.PageFactory;
 
-public class MenuStaysAndroid {
+public class MenuAttractionsAndroid implements MenuAttractions{
 
     AppiumDriver driver;
 
-    public MenuStaysAndroid(){
+    public MenuAttractionsAndroid(){
         this.driver = DriverContext.getDriver();
         PageFactory.initElements(new AppiumFieldDecorator(this.driver), this);
     }
-
-    /**
-     * Tab superior de menus
-     */
-    @AndroidFindBy(xpath = "//android.widget.TextView[@text=\"Flights\"]")
-    public MobileElement txtMenuFlights;
-
-
 }
